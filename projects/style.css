@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+}
+
+body {
+    min-height: 100vh;
+}
+
+a {
+    color: hsl(224, 100%, 61%);
+}
+
+.navbar {
+    width: 100%;
+    background-color: #1c0033;
+}
+
+.navdiv {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.navdiv .logo img {
+    display: block;
+    max-width: 180px;
+    height: auto;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    font-size: 18px;
+    padding: 10px 24px;
+    transition: background-color 0.3s ease;
+    border-radius: 35px;
+}
+
+.nav-links ul li a:hover {
+    background-color: hsl(0, 0%, 15%);
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 24px;
+}
+
+h1 {
+    padding: 60px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    background-image: url(stacked-waves-haikei.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    gap: 24px;
+}
