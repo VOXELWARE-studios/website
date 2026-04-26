@@ -8,45 +8,10 @@ The official website for Voxelware Studios — an organization that creates Mine
 - Blog section with update posts
 - Discord redirect page
 - Simple dark theme with purple accents
-
-## File Structure
-
-```
-website/
-│
-├── index.html                  # Home page (hero, services, featured projects)
-├── style.css                   # Main styles
-├── stacked-waves-haikei.svg    # Hero background
-├── vxl.png                     # Logo
-│
-├── blogs/
-│   ├── index.html              # Blog listing page
-│   ├── style.css
-│   ├── blog_id_1/              # Post: Website Update v1.2.0
-│   │   ├── index.html
-│   │   └── style.css
-│   └── blog_id_2/              # Post: SmokeUtils Update v0.3.0
-│       ├── index.html
-│       └── style.css
-│
-├── projects/
-│   ├── index.html              # Shows current projects
-│   └── style.css
-│
-├── contact/
-│   ├── index.html              # Not built yet
-│   └── style.css
-│
-├── discord/
-│   └── index.html              # Redirects to Discord invite
-│
-└── api/
-    └── images/                 # Project and service logos
-```
+- Contact page
 
 ## Coming Soon
 
-- **Contact page** — simple form (name, email, message)
 - **Individual project pages** — like blog posts but for each project
 - **Shared stylesheet** — one `style.css` for the whole site instead of copies in every folder
 
